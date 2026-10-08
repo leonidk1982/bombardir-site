@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#06130d" />
+  <title>ФШ «Бомбардир» — футбол для детей 3–14 лет</title>
+  <meta name="description" content="Футбольная школа «Бомбардир» в Санкт-Петербурге. Тренировки для детей 3–14 лет. Первое занятие бесплатно." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="ФШ Бомбардир">
+    <span class="logo-box"><img src="assets/logo.jpg" alt="Логотип ФШ Бомбардир"></span>
+    <span><b>БОМБАРДИР</b><small>футбольная школа • Санкт-Петербург</small></span>
+  </a>
+  <nav>
+    <a href="#benefits">О школе</a><a href="#gallery">Турниры</a><a href="#branches">Филиалы</a><a href="#trial" class="nav-cta">Пробная тренировка</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Футбол для детей 3–14 лет</span>
+    <h1>Его первая большая победа <em>начинается здесь.</em></h1>
+    <p>Тренировки, команда, турниры и яркие эмоции. Помогаем детям полюбить футбол и становиться увереннее.</p>
+    <div class="hero-actions"><a class="btn primary" href="#trial">Первое занятие бесплатно</a><a class="btn ghost" href="#branches">Выбрать филиал</a></div>
+    <div class="proof"><span>⚽ Регулярные тренировки</span><span>🏆 Турниры</span><span>🤝 Команда</span></div>
+  </div>
+</section>
+
+<section id="benefits" class="section dark">
+  <div class="section-head"><span class="eyebrow">Больше, чем футбол</span><h2>Растим характер. Вдохновляем на победы.</h2></div>
+  <div class="cards four">
+    <article><div class="ico">🏟️</div><h3>Закрытые залы</h3><p>Тренировки проходят независимо от петербургской погоды.</p></article>
+    <article><div class="ico">📈</div><h3>Развитие навыков</h3><p>Техника, координация, скорость и игровое мышление.</p></article>
+    <article><div class="ico">👥</div><h3>Дружная команда</h3><p>Общение со сверстниками, поддержка и уважение.</p></article>
+    <article><div class="ico">🏆</div><h3>Матчи и турниры</h3><p>Игровая практика, награждения и настоящие эмоции побед.</p></article>
+  </div>
+</section>
+
+<section id="gallery" class="section gallery-section">
+  <div class="section-head"><span class="eyebrow">Жизнь команды</span><h2>Турниры, голы, награды</h2><p>То, ради чего дети снова хотят выходить на поле.</p></div>
+  <div class="gallery">
+    <figure class="wide"><img src="assets/tournament.png" alt="Турнир ФШ Бомбардир"><figcaption>Турниры и развитие</figcaption></figure>
+    <figure><img src="assets/awards.png" alt="Награждение команды"><figcaption>Награждения</figcaption></figure>
+    <figure><img src="assets/goals.png" alt="Празднование голов"><figcaption>Празднование голов</figcaption></figure>
+  </div>
+</section>
+
+<section class="section quote">
+  <div class="quote-card"><span>«</span><h2>Сначала ребёнок приходит попробовать. Потом не хочет пропускать тренировку.</h2><p>Создаём среду, где хочется играть, дружить и расти.</p></div>
+</section>
+
+<section id="branches" class="section dark branches">
+  <div class="section-head"><span class="eyebrow">Санкт-Петербург</span><h2>Выберите удобный филиал</h2></div>
+  <div class="cards branches-grid">
+    <article><h3>СК «Высота»</h3><p>Пулковское шоссе, 34, литера А</p><span>Сб 15:00–18:00 · Вс 10:00–14:00</span></article>
+    <article><h3>ФОК «Детскосельский»</h3><p>пос. Шушары, Центральная ул., 6</p><span>Сб 15:00–18:00 · Вс 10:00–14:00</span></article>
+    <article><h3>Шушары</h3><p>Новгородский пр., 10 к. 2</p><span>Вт 17:00–18:00 · Чт 17:00–18:00</span></article>
+    <article><h3>Ворошилова, 7</h3><p>ул. Ворошилова, 7</p><span>Группы по возрастам</span></article>
+  </div>
+</section>
+
+<section id="trial" class="section trial">
+  <div class="trial-copy"><span class="eyebrow">Попробуйте без риска</span><h2>Первое занятие бесплатно</h2><p>Оставьте контакты — подберём группу и удобный филиал.</p></div>
+  <form onsubmit="event.preventDefault(); document.querySelector('.form-note').textContent='Демо: форма работает визуально. На опубликованном сайте подключим отправку заявок.';">
+    <input required placeholder="Имя родителя" />
+    <input required placeholder="Возраст ребёнка" inputmode="numeric" />
+    <input required placeholder="Телефон" inputmode="tel" />
+    <button class="btn primary" type="submit">Записаться</button>
+    <small class="form-note">Нажимая кнопку, вы соглашаетесь на обработку данных.</small>
+  </form>
+</section>
+</main>
+
+<footer><div class="footer-brand"><span class="logo-box small"><img src="assets/logo.jpg" alt="Бомбардир"></span><b>ФШ «Бомбардир»</b></div><div>Санкт-Петербург · fsbombardir.tb.ru</div><div>8 (904) 550-28-55</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
